@@ -1,1 +1,11 @@
-# Excluded files
+# Python cache
+__pycache__
+
+# ELM log file
+elm.log
+
+# Virtualenv
+dev
+
+# Vscode
+.vscode
