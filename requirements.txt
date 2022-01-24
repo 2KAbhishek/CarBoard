@@ -1,0 +1,2 @@
+ELM327-emulator==3.0.0
+pyglet==1.5.21
