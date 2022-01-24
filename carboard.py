@@ -229,7 +229,7 @@ def draw_main_gauges(app):
         fill='white'
     )
     # draw the rpm display
-    text_size = Font(font=('Segmental', 24, 'bold')).measure('0000')
+    text_size = Font(font=('DSEG14 Classic', 24, 'bold')).measure('0000')
 
     display_background_coords = (
         rpm_coords[0] + radius - text_size/2 - 10,
@@ -248,7 +248,7 @@ def draw_main_gauges(app):
 
     rpm_text = cnvs.create_text(
         rpm_display_coords,
-        font=('Segmental', 24, 'bold'),
+        font=('DSEG14 Classic', 24, 'bold'),
         text='0000',
         fill='white'
     )
@@ -283,7 +283,7 @@ def draw_main_gauges(app):
     )
 
     # draw the speed display
-    text_size = Font(font=('Segmental', 24, 'bold')).measure('000')
+    text_size = Font(font=('DSEG14 Classic', 24, 'bold')).measure('000')
 
     display_background_coords = (
         speed_coords[0] + radius - text_size/2 - 10,
@@ -302,7 +302,7 @@ def draw_main_gauges(app):
 
     speed_text = cnvs.create_text(
         speed_display_coords,
-        font=('Segmental', 24, 'bold'),
+        font=('DSEG14 Classic', 24, 'bold'),
         text='000',
         fill='white'
     )
@@ -334,8 +334,9 @@ if __name__ == '__main__':
     speed = 0
     rpm = 0
 
-    # import 7 segment font
-    pyglet.font.add_file('fonts/segmental.ttf')
+    # import font
+    pyglet.font.add_file('fonts/DSEG14Classic-Regular.ttf')
+    pyglet.font.add_file('fonts/DSEG14Classic-Bold.ttf')
 
     # set window size
     window_width = 1280
