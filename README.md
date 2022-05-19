@@ -26,7 +26,7 @@
 <h3>Dashboard for Car Diagnostics 🚘🧮</h3>
 
 <figure>
-  <img src= "https://raw.githubusercontent.com/2KAbhishek/CarBoard/main/images/screenshot.png" alt="CarBoard Demo" style="width:100%">
+  <img src= "images/screenshot.png" alt="CarBoard Demo" style="width:100%">
   <br/>
   <figcaption>CarBoard screenshot</figcaption>
 </figure>
